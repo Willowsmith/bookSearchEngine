@@ -1,7 +1,7 @@
 {
   "name": "bookSearchEngine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,18 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willowsmith/bookSearchEngine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Willowsmith/bookSearchEngine/issues"
+  },
+  "homepage": "https://github.com/Willowsmith/bookSearchEngine#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
